@@ -82,11 +82,32 @@ h1{
 
 .card{
    background: white;
-   
 }
 
 .card .chaussure{
    width: 300px;
    height: 250px;
-  
+}
+
+.cardsansimg{
+   padding: 5%;
+}
+
+.nom-prix{
+   display: flex;
+   justify-content: space-between;
+}
+
+h2{
+   text-transform: uppercase;
+}
+
+h3{
+   color: blueviolet;
+}
+
+footer{
+   display: flex;
+   justify-content: center;
+   background: gainsboro;
 }
