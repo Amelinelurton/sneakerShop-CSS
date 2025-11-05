@@ -4,3 +4,89 @@
 html, body{
    font-family: 'Poppins', sans-serif;
 }
+
+.button{
+   display: flex;
+   text-decoration: none;
+   color: white;
+   background: blueviolet;
+   border-radius: 8px;
+   width: fit-content;
+   padding: 8px 16px;
+   border: 2px solid blueviolet;
+   transition: all .3s ease-in-out;
+}
+
+.avatar{
+   width: 56px;
+   height: 56px;
+   border-radius: 100%;
+   border: 2px solid black;
+}
+
+nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 5%;
+   padding-right: 5%;
+   background: white;
+}
+
+.logo-marque a{
+   display: flex;
+   gap: 10px;
+   color: black;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 30px;
+   text-decoration: none
+}
+
+
+.liste-nav{
+   display: flex;
+   gap: 7%;
+   list-style-type: none;
+}
+.liste-nav a{
+   color: #000;
+   text-decoration: none;
+   text-transform: capitalize
+}
+
+.panier-avatar{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+
+main{
+   background: gainsboro;
+}
+
+h1{
+   display: flex;
+   justify-content: center;
+   padding-top: 5%;
+   text-transform: uppercase;
+}
+
+.nos-card{
+   display: flex;
+   gap: 2%;
+   padding: 5%;
+   padding-bottom: 10%;
+}
+
+.card{
+   background: white;
+   
+}
+
+.card .chaussure{
+   width: 300px;
+   height: 250px;
+  
+}
